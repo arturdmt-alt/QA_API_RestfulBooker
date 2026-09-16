@@ -1,6 +1,6 @@
 # RestfulBooker API Testing Framework
 
-[![API Tests](https://github.com/arturdmt-alt/QA_API_RestfulBooker-/actions/workflows/tests.yml/badge.svg)](https://github.com/arturdmt-alt/QA_API_RestfulBooker-/actions/workflows/tests.yml)
+[![API Tests](https://github.com/arturdmt-alt/QA_API_RestfulBooker/actions/workflows/tests.yml/badge.svg)](https://github.com/arturdmt-alt/QA_API_RestfulBooker/actions/workflows/tests.yml)
 
 Automated API testing framework for RestfulBooker built with Python, pytest and requests.
 
@@ -48,6 +48,8 @@ QA_API_RestfulBooker/
 │   ├── base_api.py          # Base HTTP methods abstraction
 │   ├── auth_api.py          # Authentication endpoints
 │   └── booking_api.py       # Booking CRUD endpoints
+├── models/
+│   └── booking_model.py     # Test data builder for booking payloads
 ├── schemas/
 │   └── booking_schema.py    # Pydantic schemas for response validation
 ├── tests/
@@ -67,7 +69,7 @@ QA_API_RestfulBooker/
 
 1. Clone the repository
 ```bash
-git clone https://github.com/arturdmt-alt/QA_API_RestfulBooker-.git
+git clone https://github.com/arturdmt-alt/QA_API_RestfulBooker.git
 cd QA_API_RestfulBooker
 ```
 
